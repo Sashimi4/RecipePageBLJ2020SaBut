@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="style.css">
 
         <!--Google Fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
         <!--CSS Bootstrap-->
@@ -20,41 +20,22 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
         <!--Title-->
-        <title></title>
+        <title>Christmas Recipe</title>
 
     </head>
-
-    <header>
-
-
-
-
-    </header>
-
     <body>
-        <div class="container-fluid">
-            <div class="row">
-                <h2>Merry<br><span>Christmas</span></h2>
-                <div class="Merry"></div>
-            </div>
-        </div>
-
-
-
-
-
-
-
+        <section>
+            <h2>Merry<br><span>Christmas</span></h2>
+            <div class="black"></div>
+        <a href="http://google.com" target="_blank" class="Homelettering">Home</a>
+        </section>
+        <script>
+            const black = document.querySelector('.black');
+            window.onmousemove = function(e){
+                const x = e.clientX;
+                black.style.left = x + 'px';
+            }
+        </script>
     </body>
-
-    <footer>
-
-
-
-
-
-
-    </footer>
-
 </html>
 

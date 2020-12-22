@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    overflow-x: hidden;
+}
+
+.pagetitle{
+    font-family: 'Satisfy', sans-serif;
+    font-size: 4em;
+}
+
+.first-section .inner-column h2:after{
+    position: absolute;
+    content: '';
+    left: 15px;
+    bottom: 0px;
+    width: 90px;
+    height: 5px;
+    background-color: tomato;
+    border-bottom: 2px;
+}
+
+.inner-column{
+    position: relative;
+}
+
+.main-section-paragraph{
+    padding-top: 2em;
+    padding-bottom: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    border-bottom: 2px solid #AA3939;
+}
+
+.documentation-section{
+    margin-top: 2em;
+    background-image: url(https://images.pexels.com/photos/5725873/pexels-photo-5725873.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: auto;
+    background-repeat: cover;
+    width: 100%;
+    z-index: 9;
+}
+
+.documentation-inner-column{
+
+}
+
+.description-row{
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.documentation-section-paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+/*parallax image*/
+.parallax-image{
+    background-image: url("https://images.pexels.com/photos/1666065/pexels-photo-1666065.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    max-width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    Background-repeat: no-repeat;
+    margin-bottom: 0px;
+    z-index: -100;
+    filter: blur(4px);
+    -webkit-filter: blur(2px);
+ }
+
+ .introduction{
+    padding-left: -15px;
+    padding-right: -15px;
+    z-index: 99;
+ }

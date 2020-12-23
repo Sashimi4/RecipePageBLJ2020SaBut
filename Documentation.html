@@ -25,25 +25,22 @@
         <title>Christmas Recipe</title>
     </head>
     <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#">Sashimi Industries</a>
-              </div>
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li>
-                <li><a href="#">Page 3</a></li>
-              </ul>
-            </div>
-          </nav>
+        <a href="https://www.pinterest.ch/saschabuthelezi/_saved/" class="logo" target="_blank">Sushi inc.</a>
+        <ul>
+            <li><a href="Informationpage.html">Home</a></li>
+            <li><a href="Documentation.html">Bakery</a></li>
+            <li><a href="https://www.bettybossi.ch/de/Rezept/List" target="_blank">More Recipes ?</a></li>
+            <li><a href="https://noseryoung.ch/#ueber-uns" target="_blank">Our Sponsor</a></li>
+        </ul>
 
     </header>
-    <div class="parallax-image">
-        <div class="row h-50">
-        </div>
-    </div>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 
     <div class="introduction">
         <section class="first-section">
@@ -55,66 +52,266 @@
                         <h2 class="pagetitle">
                             My
                             <br>
-                            Christmas Baking
+                            Christmas Bakery Guide
                             <br>
-                            ::after
                         </h2>
+                        <p style="display: none;">
+                        ::after
+                        </p>
                     </div>
                     <div class="col-lg-1 col-md-1">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="main-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-1 col-md-1">
-                    </div>
-                    <div class="col-lg-10 col-md-10 col-sm-12 inner-column main-section-paragraph">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad maxime dicta quia mollitia, rerum modi fugit ab sequi provident soluta?</p>
 
-                    </div>
-                    <div class="col-lg-1 col-md-1">
-                    </div>
+        <div class="container-fluid">
+            <div class="col-lg-1 col-md-1"></div>
+            <div class="col-lg-5 col-md-5 col-sm-12">
+                <h3 class="recipe-heading">Marble Cake</h3>
+                <p>
+                    This week i have decided to choose this marble cake as a pefect beginner's bake.
+                    <br>
+                </p>
+                <h3 class="recipe">Recipe:</h3>
+                <ul class="recipe-ul">
+                    <li>250 g Butter</li>
+                    <li>250 g Sugar</li>
+                    <li>1 Pack Vanilla-sugar</li>
+                    <li>4 Eggs</li>
+                    <li>8 Tablespoons of Milk</li>
+                    <li>300 g White Flour</li>
+                    <li>2 Teaspoons of Baking Powder</li>
+                    <li>A Pinch of Salt</li>
+                    <li>150 g Salt</li>
+                    <li>a little bit of Powered Sugar</li>
+                    <li>4 Tablespoons of Chocolate Cream</li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-1"></div>
+            <div class="col-lg-4 col-md-4">
+
+            </div>
+            <div class="col-lg-1 col-md-1"></div>
+        </div>
+
+        <section>
+            <div class="parallax-image">
+                <div class="row h-50">
                 </div>
             </div>
         </section>
-    </div>    
-        <section class="documentation-section">
-            <div class="container-fluid">
-                <div class="row description-row">
-                    <div class="col-lg-1 col-md-1">
-                    </div>
-                    <div class="col-lg-5 col-md-5 col-sm-12 documentation-inner-column documentation-section-paragraph">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad maxime dicta quia mollitia, rerum modi fugit ab sequi provident soluta?</p>
-                    </div>
-                    <div class="col-lg-1 col-md-1">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 documentation-inner-column">
-                        
-                    </div>
-                    <div class="col-lg-1 col-md-1">
-                    </div>
-                </div>
 
-                <div class="row description-row">
-                    <div class="col-lg-1 col-md-1">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 documentation-inner-column">
-                        
-                    </div>
-                    <div class="col-lg-1 col-md-1">
-                    </div>
-                    <div class="col-lg-5 col-md-5 col-sm-12 documentation-inner-column documentation-section-paragraph">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad maxime dicta quia mollitia, rerum modi fugit ab sequi provident soluta?</p>
-                    </div>
-                    <div class="col-lg-1 col-md-1">
-                    </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="guide-header">Step 1</h3>
+                    <p class="guide-para">
+                        To start things of, I would lay out all necessary ingredients forthis Cake. In Step 1 we are gonna use a little bit of that butter to grease up the baking pan. We dont want it to stick at the end.<br><br><br>Melt down the butterand mix it with the sugar and vanilla-sugar. Keep mixing until the sugar is fully disolved. It just start to look like a more liquid custard.
+                    </p>
                 </div>
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <img src="../RecipePageBLJ2020SaBut/Step1.jpeg" alt="step1" class="img-fluid step-img">
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
             </div>
 
-        </section>
+            <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="guide-header">Step 2</h3>
+                    <p class="guide-para">
+                        After everything has disolved into a liquid mass, We will need to add the four eggs.<br><br><br> In the image I'am splitting the eggyolk from the eggwhite. But this isn't that important, since it all comes together at the end. But it can make the cake more fluffy, so I would recommend it.
+                    </p>
+                    
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img src="../RecipePageBLJ2020SaBut/Step2.jpeg" alt="step2" class="img-fluid step-img">
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+            </div>
 
+            <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="guide-header">Step 3</h3>
+                    <p class="guide-para">
+                        Mix it well all together and add inbetween the milk.<br><br>Here again more mixing.<br><br><Strong>What a great plate.</Strong>
+                    </p>
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="../RecipePageBLJ2020SaBut/Step3.jpeg" alt="step3" class="img-fluid step-img">
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+            </div>
+
+            <section>
+                <div class="parallax-image2">
+                    <div class="row h-50">
+                    </div>
+                </div>
+            </section>
+
+            <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="guide-header">Step 4</h3>
+                    <p class="guide-para">
+                        With our yellow goop we are onna add the whiteflower.<br><br> First we mix the flour with the pinch of salt and baking powder. Afterwards we add it.<br><br><br> I would recommend here a sieve of some type. It will make sure that there are no flour chunks, which will in return make a nice fluffy cake.
+                    </p>
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="../RecipePageBLJ2020SaBut/Step4.jpeg" alt="step4" class="img-fluid step-img">
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="guide-header">Step 5</h3>
+                    <p class="guide-para">
+                        A Glorious Mountain. So Beautiful. But here we can see how the sieve has done it's magic.
+                    </p>
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="../RecipePageBLJ2020SaBut/Step5.jpeg" alt="step5" class="img-fluid step-img">
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="guide-header">Step 6</h3>
+                    <p class="guide-para">
+                        Now comes the chocolate mixture. I used a Ovomaltine based mixture. I used Ovomaltine-spread and -powder, thats why I used a bit more milk to activate the powder. First we have to half the original mixture. Afterwards we can add the chocolate to the other-half. So now we have a light mixture and a dark one.
+                    </p>
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="../RecipePageBLJ2020SaBut/Step7.jpeg" alt="step7" class="img-fluid step-img">
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+            </div>
+
+            <section>
+                <div class="parallax-image3">
+                    <div class="row h-50">
+                    </div>
+                </div>
+            </section>
+
+            <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="guide-header">Step 7</h3>
+                    <p class="guide-para">
+                        Make sure the form has been greased.<br><br> If it all checks out, add one of the mixtures first and then the other on top. I personally added the dark mixture first.<br><br><br> To give it that marbled effect, use a fork and just run the both mixtures with it. That is what will create the famous marbled texture.
+                    </p>
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="../RecipePageBLJ2020SaBut/Step8.jpeg" alt="step8" class="img-fluid step-img">
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="guide-header">Step 8</h3>
+                    <p class="guide-para">
+                        We are almost at the finish line.<br><br> Now you have to preheat the oven at <strong>210</strong> degrees Celcius or <strong>410</strong> Fahrenheit or for those scientists out there 483.15 Kelvin.<br><br> Then once it's reached the heat, pop it in the oven for 60 min.
+                    </p>
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="../RecipePageBLJ2020SaBut/Step9.jpeg" alt="step9" class="img-fluid step-img">
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-md-2"></div>
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                    <h3 class="guide-header">Step 9</h3>
+                    <p class="guide-para">
+                        You should, be able to see it rise. A nice crust should also be forming on the outside. After the 60 min, poke a hole in the cake with a toothpick or something of the sort. If there is no material on the toothpick the cake is Ready.<br><br><br> Let it cool down. Then add the powdered sugar to give it that christmas feeling.<br><br> Looks so great i could ski on it. If you scroll down to the bottom of the page, you can send me your bakery on one of the social-platforms down below. Send me your bakes and i'll happily rate them.<br>If your curious for more recipes check out the <strong>More Recipes ?</strong> page.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-md-2"></div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <img src="../RecipePageBLJ2020SaBut/Step10.jpeg" alt="step10" class="img-fluid step-img">
+                </div>
+                <div class="col-lg-2 col-md-2"></div>
+            </div>
+        </div>
+        
+
+                    <footer>
+                        <div class="row">
+                            <div class="col-lg-1 col-md-1"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 left box">
+                                <h2>About us</h2>
+                                <div class="content">
+                                    <p>Im a young programmer with intermediate HTML and CSS Skills. I tend to try new trends and have a great concept of art. Would love to hear from you, so contact me.</p>
+                                    <div class="social">
+                                        <a href="https://www.facebook.com" target="_blank"><span class="fab fa-facebook-f"></span></a>
+                                        <a href="https://www.twitter.com" target="_blank"><span class="fab fa-twitter"></span></a>
+                                        <a href="https://www.pinterest.com" target="_blank"><span class="fab fa-pinterest"></span></a>
+                                        <a href="https://www.instagram.com" target="_blank"><span class="fab fa-instagram"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 center box">
+                                <h2>Address</h2>
+                                <div class="content">
+                                    <div class="place">
+                                        <span class="fas fa-map-marker-alt icon"></span>
+                                        <span class="text">Switzerland, Zurich</span>
+                                    </div>
+                                    <div class="phone">
+                                        <span class="fas fa-phone-alt icon"></span>
+                                        <span class="text">+41 078 406 85 54</span>
+                                    </div>
+                                    <div class="email">
+                                        <span class="fas fa-envelope icon"></span>
+                                        <span class="text">Buthelezi@noseryoung.com</span>
+                                    </div>
+                                    <p class="copyright-para">© Copyright 2020<br> Sascha Buthelezi | All rights reserved</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 right box">
+                                <h2>Contact us</h2>
+                                <div class="content">
+                                    <form action="#">
+                                        <div class="email">
+                                            <div class="text">Email *</div>
+                                            <input type="email" required>
+                                        </div>
+                                        <div class="msg">
+                                            <div class="text">Message *</div>
+                                            <textarea  rows="2" cols="25" required></textarea>
+                                        </div>
+                                        <div class="btn">
+                                            <button type="submit">Send</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                    
 
 
 
